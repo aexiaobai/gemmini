@@ -4,10 +4,10 @@ name := "gemmini"
 
 version := "3.1.0"
 
-scalaVersion := "2.13.10"
+scalaVersion := "2.13.12"
 
 libraryDependencies ++= Seq(
-  "edu.berkeley.cs" %% "chisel3" % "3.6.0",
+  "org.chipsalliance" %% "chisel" % "6.0.0",
   "edu.berkeley.cs" %% "rocketchip" % "1.2.+",
   "org.scalanlp" %% "breeze" % "1.1")
 
